@@ -3,9 +3,9 @@ const router = Router();
 
 // controllers
 const {
-    getUser,
-} = require('../controllers/getUser.js');
+    postUser,
+} = require('../controllers/postUser.js');
 
-router.get("/:id", getUser);
+router.post("/", postUser);
 
 module.exports = router;

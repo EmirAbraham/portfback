@@ -2,9 +2,11 @@ const { Router } = require("express");
 const router = Router();
 
 //IMPORTAMOS LAS RUTAS
-const user = require("./getUser.js");
+const getUser = require("./getUser.js");
+const postUser = require("./postUser");
 
 //DEFINIMOS LAS RUTAS
-router.use("/user", user);
+router.use("/user", getUser);
+router.use("/user", postUser);
 
 module.exports = router;
