@@ -1,0 +1,24 @@
+{
+  "name": "back-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de Emir Abraham",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmirAbraham/portfback.git"
+  },
+  "author": "Emir Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmirAbraham/portfback/issues"
+  },
+  "homepage": "https://github.com/EmirAbraham/portfback#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
